@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    flex: 1;
+    background-color: #f4f6f8;
+}
+
+.logo {
+    padding: 10px;
+    padding-top: 0;
+}
+
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    background-color: #1e293b;
+    color: white;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.menu a:hover {
+    background-color: #3b82f6;
+}
+
+.divisor {
+    border: none;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin: 20px 0px;
+}
+
+.divisor2 {
+    border: none;
+    height: 2px;
+    background-color: rgba(172, 0, 0, 0.15);
+    margin: 20px 0px;
+}
+
+/* Conteudo bruto */
+
+.conteudo {
+    flex: 1;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+/* main */
+
+.statsinicial {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.info {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.numero {
+    font-size: 35px;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.descricao {
+    font-size: 25px;
+    color: #64748b;
+}
