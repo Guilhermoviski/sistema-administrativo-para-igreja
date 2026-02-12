@@ -101,3 +101,19 @@ main {
     font-size: 25px;
     color: #64748b;
 }
+
+.section-resumo {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.resumo {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
