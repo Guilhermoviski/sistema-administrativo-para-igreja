@@ -118,3 +118,85 @@ main {
     flex: 1;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
+
+    
+
+
+
+.card-lista {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+/* Título */
+.card-lista h2 {
+  margin-bottom: 15px;
+}
+
+/* Tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Cabeçalho */
+thead {
+  background: #f0f0f0;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+}
+
+/* Linhas */
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background: #f9f9f9;
+}
+
+/* Status */
+.status {
+  padding: 5px 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+}
+
+.bom {
+  background: #27ae60;
+}
+
+/* Botões */
+.acoes button {
+  border: none;
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0 3px;
+}
+
+.editar {
+  background: #f39c12;
+  color: white;
+}
+
+.excluir {
+  background: #e74c3c;
+  color: white;
+}
+
+.acoes button:hover {
+  opacity: 0.8;
+}
