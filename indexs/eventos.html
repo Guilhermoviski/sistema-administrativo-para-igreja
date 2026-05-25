@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projeto bradesco</title>
     <link rel="stylesheet" href="../csss/main.css">
+    <link rel="stylesheet" href="../csss/eventos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+
 <header>
     <aside class="sidebar">
         <div class="logo">Sistema Igreja</div>
@@ -24,5 +26,85 @@
         </nav>
     </aside>
 </header>
+<main>
+    <div class="conteudo">
+        <h1>Eventos - Gestão de eventos da igreja</h1>
+        <hr class="divisor2">
+    </div>
+
+<section class="statsinicial">
+    <article class="card">
+        <div class="icon">
+            <img src="../imgs/Eventos/Eventos.png" alt="Eventos este mês">
+        </div>
+        <div class="info">
+            <strong class="numero">12</strong>
+            <span class="descricao">Eventos este Mês</span>
+        </div>
+    </article>
+
+    <article class="card">
+        <div class="icon">
+            <img src="../imgs/Eventos/ProximoEvento.png" alt="em uso">
+        </div>
+        <div class="info">
+            <strong class="numero">19/05/2026</strong>
+            <span class="descricao">Proximo Evento</span>
+        </div>
+    </article>
+
+    <article class="card">
+        <div class="icon">
+            <img src="../imgs/Eventos/Participantes.png" alt="Manutenção">
+        </div>
+        <div class="info">
+            <strong class="numero">280</strong>
+            <span class="descricao">Participantes(Mês)</span>
+        </div>
+    </article>
+
+    <article class="card">
+        <div class="icon">
+            <img src="../imgs/Eventos/EventosConcluidos.png" alt="Inativos">
+        </div>
+        <div class="info">
+            <strong class="numero">25</strong>
+            <span class="descricao">Eventos concluidos</span>
+        </div>
+    </article>
+</section>
+
+<table>
+    <thead>
+      <tr>
+        <th>Evento</th>
+        <th>Data</th>
+        <th>Hora</th>
+        <th>Local</th>
+        <th>Responsável</th>
+        <th>Status</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+
+<tbody>
+    <tr>
+        <td>Culto de adoração</td>
+        <td>19/05/2026</td>
+        <td>19:30</td>
+        <td>Templo Central</td>
+        <td>Pastor</td>
+        <td><span class="status bom">Confirmado</span></td>
+
+        <td class="acoes">
+          <button class="editar">✏️</button>
+          <button class="Detalhes">👁️</button>
+          <button class="excluir">🗑️</button>
+        </td>
+    </tr>
+</tbody>
+
+</main>
+
 </body>
 </html>
